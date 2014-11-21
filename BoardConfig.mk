@@ -102,6 +102,11 @@ TARGET_RECOVERY_FSTAB = device/lge/hammerhead/fstab.hammerhead
 
 TARGET_RELEASETOOLS_EXTENSIONS := device/lge/hammerhead
 
+# Kernel inline build
+TARGET_KERNEL_SOURCE := kernel/lge/hammerhead
+TARGET_KERNEL_CONFIG := hammerhead_defconfig
+TARGET_VARIANT_CONFIG := hammerhead_defconfig
+
 BOARD_HAL_STATIC_LIBRARIES := libdumpstate.hammerhead
 
 BOARD_SEPOLICY_DIRS += \
