@@ -105,7 +105,7 @@ TARGET_RELEASETOOLS_EXTENSIONS := device/lge/hammerhead
 
 # Kernel inline build
 TARGET_KERNEL_SOURCE := kernel/lge/hammerhead
-TARGET_KERNEL_CONFIG := hammerhead_defconfig
+TARGET_KERNEL_CONFIG := screw_hammerhead_defconfig
 
 BOARD_HAL_STATIC_LIBRARIES := libdumpstate.hammerhead
 
