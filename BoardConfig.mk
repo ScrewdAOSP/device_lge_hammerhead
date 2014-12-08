@@ -165,6 +165,9 @@ USE_DEVICE_SPECIFIC_CAMERA:= true
 BOARD_SUPPRESS_SECURE_ERASE := true
 COMMON_GLOBAL_CFLAGS += -DNO_SECURE_DISCARD
 
+# Hardware
+BOARD_HARDWARE_CLASS := device/lge/hammerhead/cmhw
+
 # Enable Minikin text layout engine (will be the default soon)
 USE_MINIKIN := true
 
