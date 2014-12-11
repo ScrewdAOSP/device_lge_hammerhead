@@ -107,6 +107,9 @@ TARGET_RELEASETOOLS_EXTENSIONS := device/lge/hammerhead
 TARGET_KERNEL_SOURCE := kernel/lge/hammerhead
 TARGET_KERNEL_CONFIG := screwd_hammerhead_defconfig
 
+#Screw it up!
+SCREWD:= true
+
 BOARD_HAL_STATIC_LIBRARIES := libdumpstate.hammerhead
 
 BOARD_SEPOLICY_DIRS += \
