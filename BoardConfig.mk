@@ -158,7 +158,6 @@ TARGET_TOUCHBOOST_FREQUENCY:= 1200
 USE_DEVICE_SPECIFIC_QCOM_PROPRIETARY:= true
 USE_DEVICE_SPECIFIC_CAMERA:= true
 
--include vendor/lge/hammerhead/BoardConfigVendor.mk
 
 # Enable workaround for slow rom flash
 BOARD_SUPPRESS_SECURE_ERASE := true
