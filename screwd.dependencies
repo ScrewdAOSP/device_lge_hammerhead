@@ -5,16 +5,6 @@
     "branch":      "lp"
   },
   {
-    "repository": "MrApocalypse/proprietary_vendor_broadcom",
-    "target_path": "vendor/broadcom",
-    "branch":      "lp"
-  },
-  {
-    "repository": "MrApocalypse/proprietary_vendor_qcom",
-    "target_path": "vendor/qcom",
-    "branch":      "lp"
-  },
-  {
     "repository": "MrApocalypse/kernel_lge_hammerhead",
     "target_path": "kernel/lge/hammerhead",
     "branch":      "lp"
