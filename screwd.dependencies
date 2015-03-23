@@ -2,16 +2,16 @@
   {
     "repository": "MrApocalypse/proprietary_vendor_lge",
     "target_path": "vendor/lge",
-    "branch":      "lp"
+    "branch":      "lp-mr1"
   },
   {
     "repository": "MrApocalypse/kernel_lge_hammerhead",
     "target_path": "kernel/lge/hammerhead",
-    "branch":      "lp"
+    "branch":      "lp-mr1"
   },
   {
     "repository": "MrApocalypse/device_qcom_common",
     "target_path": "device/qcom/common",
-    "branch": "lp"
+    "branch": "lp-mr1"
   }
 ]
