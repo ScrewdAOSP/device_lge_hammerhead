@@ -8,10 +8,5 @@
     "repository": "MrApocalypse/kernel_lge_hammerhead",
     "target_path": "kernel/lge/hammerhead",
     "branch":      "lp-mr1"
-  },
-  {
-    "repository": "MrApocalypse/device_qcom_common",
-    "target_path": "device/qcom/common",
-    "branch": "lp-mr1"
   }
 ]
