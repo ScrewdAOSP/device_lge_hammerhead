@@ -107,6 +107,7 @@ TARGET_RELEASETOOLS_EXTENSIONS := device/lge/hammerhead
 # Kernel inline build
 TARGET_KERNEL_SOURCE := kernel/lge/hammerhead
 TARGET_KERNEL_CONFIG := screwd_hammerhead_defconfig
+TARGET_GCC_VERSION_ARM := 4.9
 
 #Screw it up!
 SCREWD:= true
