@@ -1,0 +1,12 @@
+[
+  {
+    "repository": "ScrewdAOSP/proprietary_vendor_lge",
+    "target_path": "vendor/lge",
+    "branch":      "m"
+  },
+  {
+    "repository": "ScrewdAOSP/kernel_lge_hammerhead",
+    "target_path": "kernel/lge/hammerhead",
+    "branch":      "m"
+  }
+]
