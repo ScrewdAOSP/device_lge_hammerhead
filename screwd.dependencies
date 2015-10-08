@@ -5,8 +5,8 @@
     "branch":      "m"
   },
   {
-    "repository": "ScrewdAOSP/kernel_lge_hammerhead",
+    "repository": "ScrewdAOSP/hells-Core-N5",
     "target_path": "kernel/lge/hammerhead",
-    "branch":      "m"
+    "branch":      "marshmallow"
   }
 ]
