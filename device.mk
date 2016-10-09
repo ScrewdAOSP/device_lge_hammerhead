@@ -162,7 +162,12 @@ PRODUCT_PACKAGES += \
     libmmjpeg_interface \
     camera.hammerhead \
     mm-jpeg-interface-test \
-    mm-qcamera-app
+    mm-qcamera-app \
+    SnapdragonCamera
+
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.camera.HAL3.enabled=1 \
+    persist.camera.cpp.duplication=false
 
 PRODUCT_PACKAGES += \
     keystore.msm8974
