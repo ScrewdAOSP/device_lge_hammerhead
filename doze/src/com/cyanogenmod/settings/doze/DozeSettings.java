@@ -51,14 +51,6 @@ public class DozeSettings extends PreferenceActivity implements OnPreferenceChan
         mContext = getApplicationContext();
         boolean dozeEnabled = Utils.isDozeEnabled(mContext);
 
-        // get shared preference
-
-        mAmbientDisplayPreference =
-            (SwitchPreference) findPreference(Utils.AMBIENT_DISPLAY_KEY);
-        // Read from DOZE_ENABLED secure setting
-        mAmbientDisplayPreference.setChecked(dozeEnabled);
-        mAmbientDisplayPreference.setOnPreferenceChangeListener(this);
-
         mPickUpPreference =
             (SwitchPreference) findPreference(Utils.PICK_UP_KEY);
         mPickUpPreference.setOnPreferenceChangeListener(this);
@@ -93,11 +85,7 @@ public class DozeSettings extends PreferenceActivity implements OnPreferenceChan
     public boolean onPreferenceChange(Preference preference, Object newValue) {
         final String key = preference.getKey();
         final boolean value = (Boolean) newValue;
-        if (Utils.AMBIENT_DISPLAY_KEY.equals(key)) {
-            mAmbientDisplayPreference.setChecked(value);
-            Utils.enableDoze(value, mContext);
-            return true;
-        } else if (Utils.PICK_UP_KEY.equals(key)) {
+        if (Utils.PICK_UP_KEY.equals(key)) {
             mPickUpPreference.setChecked(value);
             Utils.startService(mContext);
             return true;
