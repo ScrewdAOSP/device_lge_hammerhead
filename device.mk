@@ -166,6 +166,7 @@ PRODUCT_PACKAGES += \
     libgenlock \
     hwcomposer.msm8974 \
     memtrack.msm8974 \
+    libgenlock \
     libqdutils \
     libqdMetaData
 

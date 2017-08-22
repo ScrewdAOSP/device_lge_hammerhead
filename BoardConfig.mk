@@ -73,9 +73,13 @@ TARGET_NO_RPC := true
 
 BOARD_EGL_CFG := device/lge/hammerhead/egl.cfg
 
+# Render
 USE_OPENGL_RENDERER := true
-VSYNC_EVENT_PHASE_OFFSET_NS := 7500000
-SF_VSYNC_EVENT_PHASE_OFFSET_NS := 5000000
+OVERRIDE_RS_DRIVER := libRSDriver_adreno.so
+NUM_FRAMEBUFFER_SURFACE_BUFFERS := 3
+TARGET_USES_GRALLOC1 := true
+TARGET_USES_HWC2 := true
+TARGET_USES_NEW_ION_API :=true
 TARGET_USES_ION := true
 
 # Enable dex-preoptimization to speed up first boot sequence
@@ -110,7 +114,6 @@ BOARD_SEPOLICY_DIRS += device/lge/hammerhead/sepolicy
 
 HAVE_ADRENO_SOURCE:= false
 
-OVERRIDE_RS_DRIVER:= libRSDriver_adreno.so
 TARGET_FORCE_HWC_FOR_VIRTUAL_DISPLAYS := true
 
 TARGET_TOUCHBOOST_FREQUENCY:= 1200
