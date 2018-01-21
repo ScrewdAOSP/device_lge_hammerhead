@@ -19,12 +19,6 @@
 #
 # Everything in this directory will become public
 
-# Kernel Inline
-TARGET_KERNEL_SOURCE := kernel/lge/hammerhead
-TARGET_KERNEL_CONFIG := unicornblood_defconfig
-TARGET_VARIANT_CONFIG := unicornblood_defconfig
-TARGET_SELINUX_CONFIG := unicornblood_defconfig
-
 # ro.product.first_api_level indicates the first api level the device has commercially launched on.
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.product.first_api_level=19
@@ -465,10 +459,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.config.media_vol_steps=20 \
     ro.telephony.call_ring.delay=0 \
     ring.delay=0
-
-# DU Updater
-PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
-ro.du.updater=hammerhead
 
 $(call inherit-product-if-exists, hardware/qcom/msm8x74/msm8x74.mk)
 $(call inherit-product-if-exists, vendor/qcom/gpu/msm8x74/msm8x74-gpu-vendor.mk)

@@ -1,11 +1,11 @@
 [
  {
-   "repository":  "DirtyUnicorns/android_kernel_lge_hammerhead",
+   "repository":  "ScrewdAOSP/kernel_lge_hammerhead",
    "target_path": "kernel/lge/hammerhead",
    "branch":      "o8x"
  },
  {
-   "repository":  "DirtyUnicorns/android_vendor_lge",
+   "repository":  "ScrewdAOSP/vendor_lge",
    "target_path": "vendor/lge",
    "branch":      "o8x"
  }
