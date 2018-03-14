@@ -5,7 +5,7 @@
    "branch":      "o8x"
  },
  {
-   "repository":  "ScrewdAOSP/vendor_lge",
+   "repository":  "ScrewdAOSP/proprietary_vendor_lge",
    "target_path": "vendor/lge",
    "branch":      "o8x"
  }
